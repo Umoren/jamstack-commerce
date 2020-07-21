@@ -1,0 +1,20 @@
+{
+  "name": "productest",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@apicart/core-sdk": "^1.0.0-alpha7",
+    "@apicart/js-utils": "^1.0.0-alpha7",
+    "@apicart/payments-sdk": "^1.0.0-alpha7",
+    "@apicart/store-sdk": "^1.0.0-alpha7",
+    "@apicart/vue-components": "^1.0.0-alpha7",
+    "@apicart/web-components-localization": "^1.0.0-alpha7",
+    "faunadb": "^2.14.2",
+    "gridsome": "^0.7.0",
+    "vue-i18n": "^8.18.2"
+  }
+}

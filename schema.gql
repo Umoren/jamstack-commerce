@@ -1,0 +1,19 @@
+type Translation {
+    lang: String!
+    translation: String!
+}
+
+type Product {
+    id: Int!
+    categoryKeyPath: String!
+    pageUrl: String!
+    name: String!
+    price: Float!
+    taxRate: Float
+    description: String
+}
+
+type Query {
+    allTranslations: [Translation!],
+    allProducts: [Product!]
+}
